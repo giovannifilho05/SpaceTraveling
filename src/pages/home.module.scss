@@ -1,0 +1,29 @@
+.nextPage {
+  border: 0;
+  background: transparent;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--pink);
+  margin-top: 4rem;
+}
+
+.posts {
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 2.5rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    p {
+      color: var(--gray-200);
+      padding-bottom: 1.25rem;
+    }
+    
+  }
+}
